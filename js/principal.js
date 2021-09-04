@@ -14,7 +14,6 @@ for (var i = 0; i < pacientes.length; i++){
     var tdaltura = paciente.querySelector(".info-altura");
     var altura = tdaltura.textContent;
 
-
     var imc = peso /(altura * altura);
     var pesoEhValido = true;
     var alturaEhValida = true;

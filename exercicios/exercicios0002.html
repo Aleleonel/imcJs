@@ -1,0 +1,17 @@
+<!-- escrevendo for com JavaScript -->
+
+<script type="text/javascript">
+/* Todo array possui a função forEach(), em JavaScript. Passamos para ela uma
+função por parâmetro, e nessa função fazemos o que quisermos para cada item do
+array. O item do array é recebido por parâmetro na função interna:*/
+
+  var nomes = ["ALEXANDRE", "ROSEMARY", "RONALDO", "BABI", "FLAVIO", "MALU",]
+
+  for(var i = 0; i < nomes.length; i ++){
+    console.log(nomes[i]);
+  }
+
+  nomes.forEach(function(nome){
+    console.log("=>", nome);
+  });
+</script>
